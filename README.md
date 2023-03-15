@@ -14,7 +14,7 @@ Agrega el archivo al commit
     git add miArchivo.txt 
 ```
 
-### git commit
+### git commit / commit --amend
 Confirmar un conjunto de cambios provisionales de forma permanente
 ```bash
     git commit -m "texto" 
@@ -41,3 +41,4 @@ passwords.txt
 build/
 *.jpg
 ```
+
