@@ -42,3 +42,12 @@ build/
 *.jpg
 ```
 
+## git branchs
+```bash
+    git branch [branch name] #Crea una nueva rama
+    git checkout [branch name] #Cambia el HEAD a una rama
+    git checkout -b [branch name] #Crea una nueva rama y cambia el HEAD a la misma. Version corta de los dos comandos anteriores
+    git merge [branch name] #Fusiona una rama con la actual del HEAD
+    git branch -d [branch name] #Elimina una rama
+
+```
