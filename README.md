@@ -33,6 +33,18 @@ Muestra el registro de commits
     git log 
 ```
 
+### git clone
+clona el repositorio en el servidor a tu carpeta
+```bash
+    git clone [url del repositorio].git #si no se agrega el .git se agrega automaticamente
+```
+
+### git pull
+Se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido.
+```bash
+    git pull [url del repositorio]
+```
+
 ## .gitignore
 Es un archivo que sirve para que git ignore ciertos archivos al hacer un add
 Ejemplo, dentro del archivo .gitignore:
